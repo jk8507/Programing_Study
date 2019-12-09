@@ -19,8 +19,8 @@ for item in response["Blocks"]:
      text.append(item["Text"])
 
 polly_client = boto3.Session(
-                aws_access_key_id='AKIA6P6LV5FOKCJRP5SQ',
-                aws_secret_access_key='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',
+                aws_access_key_id='',
+                aws_secret_access_key='',
                 region_name='us-west-2').client('polly')
 
 for i in range(0, len(text)):
